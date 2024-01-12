@@ -8,5 +8,5 @@ for x in range(100):
     y.append(adc0.read())
     print(y[x])
     
-print(y)
+
     
