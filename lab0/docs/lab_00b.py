@@ -13,6 +13,7 @@ output_array=[]  # array where the outputted values will go before printing
 step = 0.001   
 time = list(range(QUEUE_SIZE)) #list of times to print alongside output_array
 # float(i) * step for i in range(int(0.001 / step), int(2.001 / step))
+
 def main():
     micropython.alloc_emergency_exception_buf(100) # alocates buffer for emergency exception handling, used when memory is a constraint
     
@@ -62,7 +63,7 @@ def step_response():# run this function when requeste dby user or through GUI
         output=int_queue.get()
         output_array.append(output)
     print('done')
-    print(f"{time},{output_array}")
+    print(output_array)
     
 
 if __name__ == "__main__":
