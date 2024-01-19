@@ -24,12 +24,16 @@
 */
 var NAVTREE =
 [
-  [ "me-405 lab0", "index.html", ]
+  [ "ME-405 lab0", "index.html", [
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"dir_197f5ad98a4bcb18d8d4aaf6a89bf70a.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
