@@ -5,8 +5,10 @@ import serial
 from serial import Serial
 import time
 import math
-from matplotlib import pyplot 
+from matplotlib import pyplot
 
+# COM5 for peter
+# COM4 for abe
 ser = serial.Serial("COM5", 9600)
 
 print("sending to board")
